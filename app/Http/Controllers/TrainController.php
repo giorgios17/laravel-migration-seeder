@@ -10,7 +10,7 @@ class TrainController extends Controller
     //
     public function index()
     {
-        $alltrain = TrainModel::all();
-        return view('home', $alltrain);
+        //$alltrain = TrainModel::all();
+        return view('home' );
     }
 }
