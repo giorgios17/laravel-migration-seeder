@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: coral;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+h4 {
+    display: inline-block;
+}
