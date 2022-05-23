@@ -10,9 +10,9 @@
 </head>
 
 <body>
-    <div>Array: {{ $alltrain }}</div>
+    <h1>Treni oggi:</h1>
     <div class='card'>
-        @foreach ($alltrain as $train)
+        @foreach ($trainsToday as $train)
             <p>Azienda: {{ $train['azienda'] }}</p>
             <p>Stazione di partenza: {{ $train['stazione_di_partenza'] }}</p>
             <p>Stazione di arrivo: {{ $train['stazione_di_arrivo'] }}</p>
